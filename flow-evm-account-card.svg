@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background -->
+  <defs>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1b23" />
+      <stop offset="100%" stop-color="#282a36" />
+    </linearGradient>
+    <filter id="dropShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Main Card -->
+  <rect x="10" y="10" width="780" height="480" rx="16" fill="url(#cardGradient)" filter="url(#dropShadow)" />
+  
+  <!-- Header Section -->
+  <rect x="10" y="10" width="780" height="80" rx="16" fill="#292b36" />
+  
+  <!-- Flow Logo -->
+  <circle cx="60" cy="50" r="30" fill="#00ef8b" />
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">F</text>
+  
+  <!-- Title -->
+  <text x="110" y="45" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Flow-EVM Account Summary</text>
+  <text x="110" y="70" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">Chain ID: 747 (0x2eb)</text>
+  
+  <!-- Divider -->
+  <line x1="30" y1="110" x2="770" y2="110" stroke="#3b3d4d" stroke-width="1" />
+  
+  <!-- Account Details Section -->
+  <text x="30" y="140" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#00ef8b">Account Details</text>
+  
+  <!-- Flow Address -->
+  <text x="30" y="175" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">Flow Address:</text>
+  <text x="190" y="175" font-family="'SF Mono', monospace" font-size="16" fill="white">0x84221fe0294044d7</text>
+  
+  <!-- EVM Address -->
+  <text x="30" y="205" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">EVM Address:</text>
+  <text x="190" y="205" font-family="'SF Mono', monospace" font-size="14" fill="white">0x0000000000000000000000020c260f03355ff69d</text>
+  
+  <!-- Transaction Count -->
+  <text x="30" y="235" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">Transaction Count:</text>
+  <text x="190" y="235" font-family="'SF Mono', monospace" font-size="16" fill="white">119 transactions</text>
+  
+  <!-- Contract Status -->
+  <text x="30" y="265" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">Contract Status:</text>
+  <text x="190" y="265" font-family="'SF Mono', monospace" font-size="16" fill="#00ef8b">Has deployed ERC-1271 contract</text>
+  
+  <!-- Divider -->
+  <line x1="30" y1="290" x2="770" y2="290" stroke="#3b3d4d" stroke-width="1" />
+  
+  <!-- Balance Section -->
+  <text x="30" y="320" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="bold" fill="#00ef8b">Balance Summary</text>
+  
+  <!-- Native Flow Balance -->
+  <circle cx="40" cy="345" r="10" fill="#3b82f6" />
+  <text x="60" y="350" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">Native Flow Balance:</text>
+  <text x="250" y="350" font-family="'SF Mono', monospace" font-size="16" fill="white">763.99975807 FLOW</text>
+  
+  <!-- EVM Balance -->
+  <circle cx="40" cy="380" r="10" fill="#00ef8b" />
+  <text x="60" y="385" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">EVM Balance:</text>
+  <text x="250" y="385" font-family="'SF Mono', monospace" font-size="16" fill="white">7.784681692923477 FLOW</text>
+  
+  <!-- stFlowToken Balance -->
+  <circle cx="40" cy="415" r="10" fill="#9333ea" />
+  <text x="60" y="420" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">stFlowToken:</text>
+  <text x="250" y="420" font-family="'SF Mono', monospace" font-size="16" fill="white">28,876.47875615</text>
+  
+  <!-- FUSD Balance -->
+  <circle cx="40" cy="450" r="10" fill="#f59e0b" />
+  <text x="60" y="455" font-family="Inter, Arial, sans-serif" font-size="16" fill="#a8b3cf">FUSD:</text>
+  <text x="250" y="455" font-family="'SF Mono', monospace" font-size="16" fill="white">1.75280653</text>
+  
+  <!-- QR Code Placeholder -->
+  <rect x="590" y="140" width="160" height="160" rx="8" fill="#ffffff20" />
+  <text x="670" y="220" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#ffffff80">QR Code</text>
+  
+  <!-- Footer -->
+  <text x="400" y="480" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#a8b3cf">Generated for Flow-EVM Mainnet • Flow MCP Tools</text>
+</svg>
