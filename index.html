@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flow-EVM Account Card for Figma</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      color: #00ef8b;
+      margin-top: 0;
+    }
+    h2 {
+      color: #3b82f6;
+      margin-top: 30px;
+    }
+    code {
+      background-color: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 0.9em;
+    }
+    .step {
+      margin-bottom: 20px;
+      padding-left: 20px;
+      border-left: 3px solid #00ef8b;
+    }
+    .card-preview {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    .button {
+      display: inline-block;
+      background-color: #00ef8b;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background-color: #00cc77;
+    }
+    .account-info {
+      background-color: #f8fafc;
+      padding: 15px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .account-info p {
+      margin: 5px 0;
+      font-family: 'SF Mono', monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Flow-EVM Account Card for Figma</h1>
+    
+    <p>This page contains an SVG design of a Flow-EVM account summary card that can be imported into Figma.</p>
+    
+    <h2>Account Information</h2>
+    <div class="account-info">
+      <p><strong>Flow Address:</strong> 0x84221fe0294044d7</p>
+      <p><strong>EVM Address:</strong> 0x0000000000000000000000020c260f03355ff69d</p>
+      <p><strong>Chain ID:</strong> 747 (0x2eb)</p>
+      <p><strong>Native Flow Balance:</strong> 763.99975807 FLOW</p>
+      <p><strong>EVM Balance:</strong> 7.784681692923477 FLOW</p>
+      <p><strong>stFlowToken:</strong> 28,876.47875615</p>
+      <p><strong>FUSD:</strong> 1.75280653</p>
+      <p><strong>Transaction Count:</strong> 119</p>
+      <p><strong>Contract Status:</strong> Has deployed ERC-1271 contract (signature validation)</p>
+    </div>
+    
+    <h2>Card Preview</h2>
+    <img src="flow-evm-account-card.svg" alt="Flow-EVM Account Card" class="card-preview">
+    
+    <h2>How to Import into Figma</h2>
+    
+    <div class="step">
+      <h3>Step 1: Download the SVG</h3>
+      <p>First, download the SVG file by right-clicking on the image above and selecting "Save Image As..." or by clicking the button below.</p>
+      <a href="flow-evm-account-card.svg" download class="button">Download SVG</a>
+    </div>
+    
+    <div class="step">
+      <h3>Step 2: Import into Figma</h3>
+      <p>Open Figma and create a new file or open an existing one. Then:</p>
+      <ol>
+        <li>Click on "File" in the top menu</li>
+        <li>Select "Import..." or press <code>Shift+Cmd+I</code> (Mac) / <code>Shift+Ctrl+I</code> (Windows)</li>
+        <li>Choose the downloaded SVG file</li>
+        <li>The card will be imported as a vector that you can edit</li>
+      </ol>
+    </div>
+    
+    <div class="step">
+      <h3>Step 3: Customize the Card</h3>
+      <p>In Figma, you can now:</p>
+      <ul>
+        <li>Edit any text, colors, or elements</li>
+        <li>Resize or reposition components</li>
+        <li>Add your own logo or branding</li>
+        <li>Create variants for different account types</li>
+        <li>Add animations or interactions</li>
+      </ul>
+    </div>
+    
+    <h2>Direct SVG Code</h2>
+    <p>If you prefer, you can also copy the SVG code directly and paste it into Figma as a code component:</p>
+    <ol>
+      <li>View the <a href="https://github.com/lmcmz/flow-evm-account-card/blob/main/flow-evm-account-card.svg" target="_blank">SVG file on GitHub</a></li>
+      <li>Copy the raw SVG code</li>
+      <li>In Figma, paste using <code>Paste as SVG</code> option</li>
+    </ol>
+    
+    <p style="margin-top: 40px; font-size: 0.9em; color: #6b7280; text-align: center;">
+      Created using Flow-EVM MCP Tools • <a href="https://github.com/lmcmz/flow-evm-account-card" target="_blank">GitHub Repository</a>
+    </p>
+  </div>
+</body>
+</html>
